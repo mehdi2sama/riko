@@ -13,6 +13,7 @@ DEF_WHERE = ["riko", "tests", "examples", "setup.py", "manage.py"]
 
 
 def _upload():
+""" A script 
     """Upload distribution files"""
     _uploaddir = p.join(BASEDIR, "dist", "*")
     url = "https://upload.pypi.org/legacy/"
